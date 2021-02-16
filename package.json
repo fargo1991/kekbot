@@ -1,0 +1,23 @@
+{
+  "name": "kekbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "MODE=PROD pm2 start ./src/server.js",
+    "dev": "MODE=DEV nodemon ./src/server.js"
+  },
+  "author": "Yaroslav Poslavky",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mime": "^2.4.6",
+    "moment": "^2.29.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3"
+  }
+}

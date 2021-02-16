@@ -1,0 +1,29 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.settings form{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+
+    border-radius: 3px;
+    width: 400px;
+}
+
+.settings form hr{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.setting-bot-description{
+    display: flex;
+}
+
+.settings-bot-description p label{ font-weight: bold; float: left; margin-right: 14px; }
+.settings-bot-description p span{ font-style: italic; }

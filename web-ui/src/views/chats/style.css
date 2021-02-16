@@ -1,0 +1,81 @@
+.chats-page{
+    width: 880px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.tg-users-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.tg-user-list-item{
+    display: flex;
+    padding: 5px 10px;
+    border-bottom: solid 1px #ddd;
+    cursor: pointer;
+}
+.tg-user-list-item:nth-last-child(1){
+    /*border-bottom: none;*/
+}
+
+.tg-user-list-item .tg-name{
+    color: #b3504b;
+}
+.tg-user-list-item:hover{
+    background-color: #f5f5f5;
+}
+
+.tg-user-list-item.active .tg-name{
+    text-decoration: underline;
+}
+
+.tg-user-chat{
+    display: flex;
+    width: 620px;
+    flex-direction: column;
+
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.chat-message{
+    border: solid 1px #ddd;
+    background-color: #ddd;
+    border-radius: 12px 12px 0px 12px;
+    padding: 10px;
+    margin: 8px;
+    width: 400px;
+    align-self: flex-end;
+    /*display: inline-block;*/
+}
+.chat-message.fromUser{
+    border: solid 1px #ddd;
+    background-color: #f5f5f5;
+    border-radius: 12px 12px 12px 0px;
+    padding: 10px;
+    margin: 8px;
+    align-self: flex-start;
+    /*float: left;*/
+}
+
+.chat-message i{
+    color: #8e867b;
+}
+
+.chat-message-date{
+    color: #8e867b;
+    font-size: 10px;
+    text-align: right;
+    width: 100%;
+    margin-top: -5px;
+    margin-right: -5px;
+
+}

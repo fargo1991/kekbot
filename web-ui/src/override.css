@@ -1,0 +1,14 @@
+.ant-pagination-item-active, .ant-pagination-item-active:focus, .ant-pagination-item:hover {
+    /*font-weight: 500;*/
+    /*background: #fff;*/
+    border-color: #8e867b;
+}
+
+.ant-pagination-item-active a, .ant-pagination-item-active:focus a, .ant-pagination-item a:hover {
+    color: #8e867b;
+}
+
+.ant-pagination-next:focus .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link, .ant-pagination-prev:focus .ant-pagination-item-link, .ant-pagination-prev:hover .ant-pagination-item-link{
+    border-color: #8e867b;
+    color: #8e867b;
+}

@@ -1,0 +1,36 @@
+/**
+  https://color.romanuke.com/czvetovaya-palitra-4250/
+  #a2c2cf,
+  #8e867b
+  #d3b695
+  #895423
+  #402f1c
+*/
+
+
+body {
+  margin : 0px;
+}
+
+hr{
+  border: none;
+  height: 1px !important;
+  width: 100% !important;
+
+  background-color: #eee !important;
+}
+
+.ant-form-item-has-error{
+  color : green !important;
+}
+
+
+/* OVERRIDE ANTD */
+.ant-btn-primary{
+  background-color: #a2c2cf !important;
+  border-color: #a2c2cf !important;
+}
+
+a.disabled-link{
+  color: #bbb !important;
+}

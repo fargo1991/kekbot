@@ -1,0 +1,24 @@
+.login-page{
+    background-color: #eee;
+    min-height: 100vh;
+    margin-top: 0px;
+    display: inline-block;
+    width: 100vw;
+}
+
+.login-form{
+    width: 300px;
+    margin: auto;
+    margin-top: 150px;
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    border: solid 1px #f0f0f0;
+}
+
+.error-login-response{
+    color : #b3504b;
+}
+

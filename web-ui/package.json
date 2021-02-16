@@ -1,0 +1,41 @@
+{
+  "name": "kekbot-bot-admin-ui",
+  "version": "1.0.0",
+  "description": "Admin panel for telegram-bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "API_URL=localhost:1234 webpack-dev-server --mode development --open --hot",
+    "start_win": "SET API_URL=localhost:1234& webpack-dev-server --mode development --open --hot",
+    "build": "API_URL=sample.ru webpack",
+    "publish": "API_URL=sample.ru DEPLOY_PATH=/var/www/kekbot/ webpack",
+    "publish_kekbot": "API_URL=api.sample.ru DEPLOY_PATH=/var/www/kekbot/ webpack"
+  },
+  "author": "Yaroslav Poslavsky",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^4.6.6",
+    "axios": "^0.20.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "moment": "^2.29.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "style-loader": "^1.2.1",
+    "suneditor-react": "^2.14.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

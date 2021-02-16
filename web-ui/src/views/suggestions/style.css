@@ -1,0 +1,150 @@
+.suggestions-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.suggestions-searchbar{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 50px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.suggestions-searchbar .ant-select{
+  border : solid 1px #ddd;
+  border-right: none;
+}
+
+.suggestions-searchbar .ant-select-selector{
+  height: 50px !important;
+  line-height: 50px;
+  margin-top: 5px;
+}
+
+.suggestions-sidebar{
+  display: flex;
+  margin-top: 20px;
+  /*width: 180px;*/
+  background-color: #fff;
+  border-radius: 3px;
+  height: 250px;
+  padding: 8px;
+}
+
+.suggestions-sidebar ul{
+  padding: 0px;
+}
+.suggestions-sidebar ul li{
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: solid 1px transparent;
+}
+.suggestions-sidebar ul li.active{
+  text-decoration: underline;
+  background-color: #efeeee;
+}
+.suggestions-sidebar ul li:hover{
+  text-decoration: underline;
+  border: solid 1px #efeeee;
+}
+
+.list-of-suggestions{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 0px 12px;
+
+  width: 600px;
+  /*margin: auto;*/
+  /*margin-left: calc(50vw - 300px);*/
+}
+
+.suggestions-list-items-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion{
+  width: 600px;
+  margin: 0px 0px 10px 0px;
+  display: inline-block;
+  /* border: solid 1px #b9c5c7; */
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 6px;
+}
+
+.suggestion-title{
+  width: calc(100% + 1px);
+  margin-left: -1px;
+  border-bottom: solid 1px #b9c5c7;
+  height: 30px;
+  display: inline-block;
+  text-indent: 10px;
+  line-height: 25px;
+}
+
+.suggestion-content{
+  display: inline-block;
+  height: 20px;
+  width: inherit;
+  padding: 10px;
+}
+.suggestion-content-caption{
+  max-height: 90px;
+}
+.suggestion-content-caption i{
+  color: #999;
+}
+.suggestion-content.overflow-scroll p{
+  overflow: scroll;
+}
+
+/*.suggestion-content img{*/
+/*  width : 100px;*/
+/*}*/
+
+.suggestion-id{
+  color : #b3504b;
+  margin-right: 8px;
+}
+
+.suggestion-created{
+  float: right;
+}
+
+.suggestion-image{
+
+}
+
+.suggestion-image .thumb{
+  width: 100px;
+  cursor: pointer;
+}
+
+.suggestion-image-modal .image{
+  width: 450px;
+}
+
+.suggestions-list-items-wrapper .ant-empty{
+  background-color: #fff;
+  margin: 0px;
+  padding: 14px  0px;
+  margin-bottom: 20px;
+}
+
+.suggestion .publicated-status-time{
+  font-style: italic;
+  float: right;
+  color: #888;
+}
+
+.suggestion .suggestion-actions-dropdown{
+  float : right;
+}
