@@ -63,7 +63,6 @@ const Chat = connect(
                     </div>
                     { m.photo ? (
                       <>
-                        {/*<img src={'https://api.telegram.org/file/bot1343983358:AAFUVbZs7pBvhF2ppza7WdhkA_3ELHHFapg/photos/file_242'}/>*/}
                         <img src={`${tgImageUrl(JSON.parse(m.photo)[0].file_id)}`}/>
                         {/*<img src={`base64,${tgImageUrl(JSON.parse(m.photo)[0].file_id)}`}/>*/}
                         <i>[Пользователь прикрепил фото]</i>
